@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a2c3e"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="40dp"        />
+
+
+
+    <Button
+        android:id="@+id/teamInfo"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#16172b"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="Team Info"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/userProfile"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="#16172b"
+        android:text="User Profile"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#eb4757"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/commonStart"
+        android:text="Start"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="91dp"
+        android:backgroundTint="#16172b"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Swipe Games"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <FrameLayout
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="73dp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            android:layout_width="406dp"
+            android:layout_height="458dp"
+            android:layout_marginBottom="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="73dp"></androidx.viewpager2.widget.ViewPager2>
+
+
+        <!--                <me.relex.circleindicator.CircleIndicator3-->
+        <!--                    android:id="@+id/indicator"-->
+        <!--                    android:layout_width="match_parent"-->
+        <!--                    android:layout_height="48dp"-->
+        <!--                    android:layout_marginBottom="10dp"-->
+        <!--                    android:layout_gravity="bottom"/>-->
+
+
+
+
+    </FrameLayout>
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Team Info"-->
+    <!--        android:visibility="visible"-->
+    <!--        tools:layout_editor_absoluteX="16dp"-->
+    <!--        tools:layout_editor_absoluteY="16dp"-->
+    <!--        android:onClick="button1_TeamInfo"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Exit"-->
+    <!--        tools:layout_editor_absoluteX="627dp"-->
+    <!--        tools:layout_editor_absoluteY="347dp"-->
+    <!--        android:onClick="buttonExit"/>-->
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/imageButton"-->
+    <!--        android:layout_width="507dp"-->
+    <!--        android:layout_height="281dp"-->
+    <!--        tools:layout_editor_absoluteX="119dp"-->
+    <!--        tools:layout_editor_absoluteY="64dp"-->
+    <!--        tools:srcCompat="@tools:sample/avatars"-->
+    <!--        android:onClick="imagebutton"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Left"-->
+    <!--        tools:layout_editor_absoluteX="16dp"-->
+    <!--        tools:layout_editor_absoluteY="181dp"-->
+    <!--        android:onClick="buttonLeft"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Right"-->
+    <!--        tools:layout_editor_absoluteX="630dp"-->
+    <!--        tools:layout_editor_absoluteY="181dp"-->
+    <!--        android:onClick="buttonRight"/>-->
+
+
+
+</RelativeLayout>
