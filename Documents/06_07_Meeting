@@ -1,0 +1,23 @@
+First Game 2048:
+  - Make 2D GUI, Easy on the front end, complete backend
+  - Necessary Buttons:
+    - New Game, Instruction, Exit Back to Suite, Undo
+  - Win condition is reach 2048
+Exact GUI Positions can be chosen arbitarily first, decisions made together as a group
+
+Second Game Memory Game:
+  - 4X4
+  - Stages 1 ~ a -> "Showing Time" Decreases
+  - Score kept by adding remaining time of all stages
+  - Necessary Buttons:
+    - New Game / Reset, Instruction, Exit Back to Suite,
+
+UCD:
+- all "bubbles" start with verb
+
+2048: Due 06.15 Sprint
+  - "Front End": Sarah, Sam Due 06.12
+  - "Back End": Jisan, Wontaek Due 06.12
+  - "Connecting" 06.12~06.15
+  
+2048 & Memory Game: Due 06.27
